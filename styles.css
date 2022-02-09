@@ -1,0 +1,30 @@
+@import url("./styles/main.css");
+
+:root{
+
+    /* font colors  */
+    --font-primary: #FFFFFF;
+    --font-gray: #747474;
+
+    /* backgorund colors  */
+    --background-dark: #1B1B1B;
+    --background-gray: #3F3F3F;
+
+    /* pastels */
+    --pastel-blue: #688DE2;
+    --pastel-green: #5BB68B;
+    --pastel-red: #DA714F;
+    --pastel-yellow: #E6C142;
+}
+
+
+/* landing page styles  */
+.hero{
+    background-color: var(--background-dark);
+    color: var(--font-primary);
+    padding: var(--fs-lg);
+}
+
+.hero h1{
+    font-size: 4rem;
+}
