@@ -5,6 +5,7 @@
     /* font colors  */
     --font-primary: #FFFFFF;
     --font-gray: #747474;
+    --font-dark: #1b1b1b;
 
     /* backgorund colors  */
     --background-dark: #1B1B1B;
@@ -25,7 +26,9 @@
     color: var(--pastel-green);
 }
 
-
+.txt-bold{
+    font-weight: 800;
+}
 /* landing page styles  */
 
 .theme{
@@ -72,6 +75,17 @@
     height: 13rem;
     background-color: var(--pastel-yellow);
     border-radius: var(--radius-sm);
+    color: var(--font-dark);
+    padding: var(--space-sm);
+}
+
+.quiz-img{
+    width: 8rem;
+}
+
+.quiz-cta{
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .cat1{
@@ -81,6 +95,7 @@
 .cat2{
     background-color: var(--pastel-green);
 }
+
 
 
 
