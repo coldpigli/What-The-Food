@@ -1,0 +1,54 @@
+.dashboard{
+    display: grid;
+    grid-template-columns: 5rem auto 15rem;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "side main profile"
+    "side main profile"
+}
+
+.sidemenu{
+    height: 100vh;
+    grid-area: side;
+    background-color: var(--background-gray);
+    align-items: center;
+    gap: 2rem;
+    padding-top: 1rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.sidemenu-group{
+    gap: 1.5rem;
+    color: var(--font-gray);
+}
+
+.content-area{
+    margin: 1rem;
+    gap: 2.5rem;
+    grid-area: main;
+    background-color: var(--background-dark);
+}
+
+.new-quizzes-list{
+    gap: 1.2rem;   
+}
+
+.profile-info{
+    height: 100vh;
+    grid-area: profile;
+    background-color: var(--background-gray);
+    position: sticky;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+.user-performance .card{
+    background-color: var(--pastel-blue);
+}
+
+.user-performance .card:nth-child(2){
+    background-color: var(--pastel-red);
+}
