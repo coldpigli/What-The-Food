@@ -105,9 +105,6 @@
     background-color: var(--pastel-red);
 }
 
-
-
-
 /* Media Queries  */
 @media  only screen and  (max-width: 780px){
     .hero{
