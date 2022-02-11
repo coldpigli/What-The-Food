@@ -1,0 +1,20 @@
+.score{
+    font-size: 6rem;
+    background-color: var(--pastel-green);
+    padding: var(--space-lg);
+    border-radius: var(--radius-sm);
+}
+
+.score-breakdown{
+    width: 30rem;
+    background-color: var(--background-gray);
+    border-radius: var(--radius-sm);
+    outline: 3px solid var(--pastel-blue);
+    outline-offset: 0.5rem;
+}
+
+.stats{
+    align-items: center;
+    width: fit-content;
+    padding: var(--space-sm) var(--space-lg);
+}
