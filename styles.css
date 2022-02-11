@@ -26,6 +26,10 @@
     color: var(--pastel-green);
 }
 
+.txt-info{
+    color: var(--pastel-blue);
+}
+
 .txt-bold{
     font-weight: 800;
 }
