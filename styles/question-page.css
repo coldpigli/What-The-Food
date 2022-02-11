@@ -1,0 +1,26 @@
+.question-area{
+    margin: 2rem;
+}
+
+.options-group{
+    gap: 3rem;
+    justify-content: center;
+}
+
+.option-item{
+    background-color: var(--pastel-yellow);
+    width: 25rem;
+    padding: var(--space-md);
+    color: var(--font-dark);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+.option-correct{
+    background-color: var(--pastel-green);
+}
+
+.option-wrong{
+    background-color: var(--pastel-red);
+}
