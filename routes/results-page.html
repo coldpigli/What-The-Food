@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Results</title>
+</head>
+<body class="theme">
+    <div class="dashboard">
+        <div class="sidemenu flex-vertical">
+            <h3>WTF</h3>
+            <div class="sidemenu-group flex-vertical">
+                <div class="sidemenu-item">
+                    <a href="#">
+                        <span class="material-icons md-24">home</span>
+                    </a>   
+                </div>
+                <div class="sidemenu-item">
+                    <a href="#">
+                        <span class="material-icons md-24">extension</span>
+                    </a>   
+                </div>
+                <div class="sidemenu-item">
+                    <a href="#">
+                        <span class="material-icons md-24">add_circle</span>
+                    </a>   
+                </div>
+                <div class="sidemenu-item">
+                    <a href="#">
+                        <span class="material-icons md-24">account_circle</span>
+                    </a>   
+                </div>
+                <div class="sidemenu-item">
+                    <a href="#">
+                        <span class="material-icons md-24">account_tree</span>
+                    </a>   
+                </div>
+                <div class="sidemenu-item">
+                    <a href="#">
+                        <span class="material-icons md-24">logout</span>
+                    </a>   
+                </div>
+            </div>
+        </div>
+        <div class="score-area h-full flex-vertical children-middle">
+            <h3 class="gap-d30">HERE IS YOUR SCORE!!</h3>
+            <h1 class="score gap-d30">7/12</h1>
+            <div class="score-breakdown flex children-centered gap-d30 ">
+                <div class="stats flex-vertical">
+                    <h3>12</h3>
+                    <p>Attempted</p>
+                </div>
+                <div class="stats flex-vertical">
+                    <h3>7</h3>
+                    <p>Correct</p>
+                </div>
+                <div class="stats flex-vertical">
+                    <h3>5</h3>
+                    <p>Incorrect</p>
+                </div>
+            </div>
+            <a href="#answer-key">
+                <button class="fab gap-u30">
+                    <span class="material-icons md-24">arrow_downward</span>
+                </button> 
+            </a>
+        </div>
+        <div id="answer-key" class="answer-key flex-vertical children-middle h-full">
+            <h1 class="txt-xlg gap-d30">Answer Key</h1>
+            <div class="question-item txt-left gap-d30">
+                <h3 class="gap-d10 txt-gray">Question 1</h3>
+                <p class="txt-xlg">What is the most stolen food in the world?</p>
+            </div>
+
+            <div class="options-group gap-u30 txt-lg flex wrap">
+                <div class="option-item option-correct">
+                    A) Cheese
+                </div>
+                <div class="option-item">
+                    B) Bread
+                </div>
+                <div class="option-item option-wrong">
+                    C) Eggs
+                </div>
+                <div class="option-item">
+                    D) Biryani
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-info flex-vertical">
+            <div class="user-description flex-vertical children-centered gap-d30">
+                <img class="avatar avatar-square avatar-sm" src="../assets/avatar-4.jpg" alt="alernative-text">
+                <h3 class="gap-u20">HI, ANONYMOUS</h3>
+            </div>
+            <div class="user-performance">
+                <div class="card vertical-card shadow-all gap-d30">
+                    <div class="card-description">
+                        <h3 class="gap-d20">Quizzes Completed</h3>
+                        <div class="card-price-rating children-centered">
+                            <h2>3/9</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="card vertical-card shadow-all">
+                    <div class="card-description">
+                        <h3 class="gap-d20">Quizzes Completed</h3>
+                        <div class="card-price-rating children-centered">
+                            <h2>4/9</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
