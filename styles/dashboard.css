@@ -52,3 +52,9 @@
 .user-performance .card:nth-child(2){
     background-color: var(--pastel-red);
 }
+
+@media  only screen and  (max-width: 780px){
+    .profile-info{
+        display: none;
+    }
+}
