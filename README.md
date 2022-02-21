@@ -8,6 +8,9 @@ What the food is a small but fun trivia quiz app about food for all the gluttons
 
     https://what-the-food.netlify.app/
 
+## Front End Demo
+![enter image description here](https://raw.githubusercontent.com/coldpigli/coldpigli/master/What-the-food-gif.gif)
+
 ## Quiz Categories(v1.0)
    This feature is under development. (Coming Soon)
 
